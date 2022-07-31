@@ -8,6 +8,7 @@ Using the credit card credit dataset from LendingClub, a peer-to-peer lending se
 
 # Results
 Oversample / RandomOverSampler
+![Oversampling_RandomOverSampler](https://user-images.githubusercontent.com/102339838/182047757-210a5bf8-f7ce-48e9-a48e-c43a85c06e05.png)
 
 Oversampling_RandomOverSampler
 
@@ -28,6 +29,7 @@ Low_risk F1 score = 0.77
 The high_risk precision score doesn't looks good and this make the f1 score result in worse
 
 Oversample / SMOTE
+![Oversampling_SMOTE](https://user-images.githubusercontent.com/102339838/182047767-c4e514c0-294a-4e6b-aa19-b6388652c672.png)
 
 Oversampling_SMOTE
 
@@ -48,6 +50,7 @@ Low_risk F1 score = 0.82
 The high_risk precision score doesn't looks good and this make the f1 score result in worse
 
 Undersample / ClusterCentroids
+![Undersampling_ClusterCentroids](https://user-images.githubusercontent.com/102339838/182047778-a3c344cf-e192-421f-8089-189d819b1aea.png)
 
 Undersampling_ClusterCentroids
 
@@ -68,6 +71,7 @@ Low_risk F1 score = 0.56
 Undersampleing with ClusterCentroids reports are even worse than the oversample models above.
 
 Combine (Over- and Undersample) / SMOTEENN algorithm
+![Combination_Sampling_SMOTEEN](https://user-images.githubusercontent.com/102339838/182047787-b3306fa3-4817-4c60-8f97-c93643432559.png)
 
 Combination_Sampling_SMOTEEN
 
@@ -88,6 +92,7 @@ Low_risk F1 score = 0.73
 We don't see much improvement using resampling with SMOTEENN, only some of the metrics such as recall score has an improvement over undersampling.
 
 BalanceRandomForestClassifier
+![BalancedRandomForestClassifier](https://user-images.githubusercontent.com/102339838/182047793-324f2bcd-65c7-4c0b-b952-7818976cc02d.png)
 
 BalancedRandomForestClassifier
 
@@ -108,6 +113,7 @@ Low_risk F1 score = 0.93
 Using ensemble algorithms with Balance Random forest Classifier is impressive, we have a great balanced accuracy score, all the metrics on classification report looks great.
 
 EasyEnsebleClassifier
+![EasyEnsembleClassifier](https://user-images.githubusercontent.com/102339838/182047799-3f761af7-65c3-4a20-8b2b-0fd0cf5eda69.png)
 
 EasyEnsembleClassifier
 

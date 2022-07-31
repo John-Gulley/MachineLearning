@@ -29,6 +29,7 @@ Low_risk F1 score = 0.77
 The high_risk precision score doesn't looks good and this make the f1 score result in worse
 
 Oversample / SMOTE
+
 ![Oversampling_SMOTE](https://user-images.githubusercontent.com/102339838/182047767-c4e514c0-294a-4e6b-aa19-b6388652c672.png)
 
 Oversampling_SMOTE
